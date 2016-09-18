@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA4639171D67327A0089B505 /* Array+Remove.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4639161D67327A0089B505 /* Array+Remove.swift */; };
+		9312D1D61D8EE86000DC34BD /* Array+Remove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312D1D51D8EE86000DC34BD /* Array+Remove.swift */; };
 		AABD2B911D67318600F3B854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD2B901D67318600F3B854 /* AppDelegate.swift */; };
 		AABD2B931D67318600F3B854 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD2B921D67318600F3B854 /* ViewController.swift */; };
 		AABD2B961D67318600F3B854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABD2B941D67318600F3B854 /* Main.storyboard */; };
@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA4639161D67327A0089B505 /* Array+Remove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Array+Remove.swift"; path = "Sources/Array+Remove.swift"; sourceTree = SOURCE_ROOT; };
+		9312D1D51D8EE86000DC34BD /* Array+Remove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Remove.swift"; sourceTree = "<group>"; };
 		AABD2B8D1D67318600F3B854 /* ArrayRemove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArrayRemove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABD2B901D67318600F3B854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AABD2B921D67318600F3B854 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9312D1D41D8EE86000DC34BD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9312D1D51D8EE86000DC34BD /* Array+Remove.swift */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
 		AABD2B841D67318600F3B854 = {
 			isa = PBXGroup;
 			children = (
@@ -57,12 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				AABD2B901D67318600F3B854 /* AppDelegate.swift */,
-				AA4639161D67327A0089B505 /* Array+Remove.swift */,
-				AABD2B921D67318600F3B854 /* ViewController.swift */,
-				AABD2B941D67318600F3B854 /* Main.storyboard */,
 				AABD2B971D67318600F3B854 /* Assets.xcassets */,
-				AABD2B991D67318600F3B854 /* LaunchScreen.storyboard */,
 				AABD2B9C1D67318600F3B854 /* Info.plist */,
+				AABD2B991D67318600F3B854 /* LaunchScreen.storyboard */,
+				AABD2B941D67318600F3B854 /* Main.storyboard */,
+				9312D1D41D8EE86000DC34BD /* Sources */,
+				AABD2B921D67318600F3B854 /* ViewController.swift */,
 			);
 			path = ArrayRemove;
 			sourceTree = "<group>";
@@ -139,7 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AABD2B931D67318600F3B854 /* ViewController.swift in Sources */,
-				AA4639171D67327A0089B505 /* Array+Remove.swift in Sources */,
+				9312D1D61D8EE86000DC34BD /* Array+Remove.swift in Sources */,
 				AABD2B911D67318600F3B854 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
