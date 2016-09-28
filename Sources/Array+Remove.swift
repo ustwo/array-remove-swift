@@ -35,23 +35,23 @@ extension Array {
 
      - parameter object: The object to be removed (if found)
      */
-    mutating func removeObject<T: Equatable>(object: T) {
+    mutating func removeObject<T: Equatable>(_ object: T) {
 
-        var index: Int?
+        var foundIndex: Int?
 
-        for (idx, objectToCompare) in self.enumerate() {
+        for (index, currentObject) in self.enumerated() {
 
-            let to = objectToCompare as! T
+            let to = currentObject as! T
 
             if object == to {
-
-                index = idx
+                
+                foundIndex = index
             }
         }
         
-        if index != nil {
+        if let removeIndex = foundIndex {
 
-            self.removeAtIndex(index!)
+            self.remove(at: removeIndex)
         }
     }
 }
