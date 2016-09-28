@@ -1,6 +1,6 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/ustwo/array-remote-swift/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/ustwo/array-remove-swift.svg?branch=ci-results-readme)](https://travis-ci.org/ustwo/array-remove-swift)
-[![codecov.io](https://codecov.io/github/ustwo/array-remove-swift/coverage.svg?branch=ci-results-readme)](https://codecov.io/github/ustwo/array-remove-swift?branch=ci-results-readme)
+[![Build Status](https://travis-ci.org/ustwo/array-remove-swift.svg?branch=master)](https://travis-ci.org/ustwo/array-remove-swift)
+[![codecov.io](https://codecov.io/github/ustwo/array-remove-swift/coverage.svg?branch=master)](https://codecov.io/github/ustwo/array-remove-swift?branch=master)
 
 # Array+Remove
 
