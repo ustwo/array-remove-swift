@@ -26,7 +26,7 @@
 
 import Foundation
 
-/// Extension of Array to add remove object functionality 
+/// Extension of Array to add remove object functionality
 
 extension Array {
 
@@ -39,19 +39,20 @@ extension Array {
 
         var foundIndex: Int?
 
-        for (index, currentObject) in self.enumerated() {
+        for (index, currentObject) in enumerated() {
 
-            let to = currentObject as! T
+            if let to = currentObject as? T {
 
-            if object == to {
-                
-                foundIndex = index
+                if object == to {
+
+                    foundIndex = index
+                }
             }
         }
-        
+
         if let removeIndex = foundIndex {
 
-            self.remove(at: removeIndex)
+            remove(at: removeIndex)
         }
     }
 }

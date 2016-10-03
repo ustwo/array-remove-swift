@@ -11,47 +11,47 @@ import XCTest
 @testable import ArrayRemove
 
 final class ArrayRemoveTests: XCTestCase {
-    
+
     func testRemoveObject_ShouldRemoveObject_WhenArrayContainsMatchingObject() {
-      
+
         // Given
-        
+
         let apple = "apple"
         let orange = "orange"
-        
-        var fruits: [String] = [apple, orange]
-        
+
+        var fruits = [apple, orange]
+
         // When
-        
+
         fruits.removeObject(orange)
-        
+
         // Then
-        
+
         let expectedResult = [apple]
         let actualResult = fruits
-        
+
         XCTAssertEqual(actualResult.count, 1)
         XCTAssertEqual(expectedResult, actualResult)
     }
-    
+
     func testRemoveObject_ShouldNotRemoveObject_WhenArrayDoesNotContainMatchingObject() {
-        
+
         // Given
-        
+
         let apple = "apple"
         let orange = "orange"
-        
-        var fruits: [String] = [apple]
-        
+
+        var fruits = [apple]
+
         // When
-        
+
         fruits.removeObject(orange)
-        
+
         // Then
-        
+
         let expectedResult = [apple]
         let actualResult = fruits
-        
+
         XCTAssertEqual(actualResult.count, 1)
         XCTAssertEqual(expectedResult, actualResult)
     }

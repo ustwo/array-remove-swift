@@ -10,11 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
+
     // MARK: - View lifecycle
-    
+
     override func viewDidLoad() {
-        
+
         super.viewDidLoad()
 
         let apple = "apple"
@@ -24,4 +24,3 @@ class ViewController: UIViewController {
         fruits.removeObject(apple)
     }
 }
-
