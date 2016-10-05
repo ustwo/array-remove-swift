@@ -56,10 +56,19 @@ fruits.append(apple)
 fruits.removeObject(apple)
 ```
 
-## Contributors
+## Contributing
+
+Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms. See the [Code of Conduct](CODE_OF_CONDUCT.md) file.
+
+
+## Maintainers
 
 * [Shagun Madhikarmi](mailto:shagun@ustwo.com)
 
+## Contact
+
+[open.source@ustwo.com](mailto:open.source@ustwo.com)
+
 ## License
 
-Array+Remove is released under the MIT License. See the LICENSE file.
+Array+Remove is released under the MIT License. See [License](LICENSE).
