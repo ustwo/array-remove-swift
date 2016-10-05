@@ -10,7 +10,7 @@ An extension to Swift's `Array` type to add remove functionality
 
 * [Xcode](https://itunes.apple.com/gb/app/xcode/id497799835?mt=12#)
 
-### Installation
+## Installation
 
 ### CocoaPods
 
