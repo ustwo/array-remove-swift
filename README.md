@@ -56,10 +56,14 @@ fruits.append(apple)
 fruits.removeObject(apple)
 ```
 
-## Contributors
+## Maintainers
 
 * [Shagun Madhikarmi](mailto:shagun@ustwo.com)
 
+## Contact
+
+[open.source@ustwo.com](mailto:open.source@ustwo.com)
+
 ## License
 
-Array+Remove is released under the MIT License. See the LICENSE file.
+URLSession+Cancellation is released under the MIT License. See [License](LICENSE).
