@@ -10,10 +10,35 @@ An extension to Swift's `Array` type to add remove functionality
 
 * [Xcode](https://itunes.apple.com/gb/app/xcode/id497799835?mt=12#)
 
-## Installation
+### Installation
+
+### CocoaPods
+
+[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
+
+```bash
+$ gem install cocoapods
+```
+
+To integrate ArrayRemoveSwift into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+platform :ios, '8.3'
+
+use_frameworks!
+
+pod 'ArrayRemoveSwift', '~> 1.0.0'
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
+### Manually
 
 - Add the `Array+Remove.swift` file to your Xcode project.
-- **Note**. CocoaPods support coming soon.
 
 ## Usage
 
