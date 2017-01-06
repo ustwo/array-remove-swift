@@ -35,7 +35,7 @@ extension Array {
 
      - parameter object: The object to be removed (if found)
      */
-    mutating func removeObject<T: Equatable>(_ object: T) {
+    public mutating func removeObject<T: Equatable>(_ object: T) {
 
         var foundIndex: Int?
 
